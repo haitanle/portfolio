@@ -18,6 +18,18 @@ body {
 	width: 90px;
 }
 
+nav {
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	transform: translate(-300px,0);
+	transition: transfom 0.3s ease;
+}
+
+nav.open {
+	transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+}
 
 
 
