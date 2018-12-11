@@ -6,6 +6,9 @@ body {
 	float: left;
 }
 
+.header {
+	height: 200px;
+}
 
 .header_menu {
 	display: inline-block;
@@ -27,6 +30,12 @@ body {
 }
 
 .project {
-	width: 100px;
+	border: 1px solid;
+	width: 33%;
 	float: left;
+}
+
+.main {
+	border: 1px solid;
+	height: 400px;
 }
