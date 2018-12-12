@@ -18,6 +18,38 @@ body {
 	width: 90px;
 }
 
+ul {
+	padding-left: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+nav {
+	list-style-type: none;
+    padding-left: 0;
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	transform: translate(-300px,0);
+	transition: transform 0.3s ease;
+	z-index: 10;
+	height: 400px;
+	font-size: 200%;
+	background-color: white;
+}
+
+nav.open {
+	transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+}
+
+.nav__item {
+	width: 100%;
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 65px;
+}
 
 
 
