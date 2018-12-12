@@ -6,7 +6,7 @@ body {
 	float: left;
 }
 
-#portfolio_desc {
+.description {
 	border: 1px solid;
 	height: 515px;
 	position: absolute;
@@ -19,10 +19,15 @@ body {
     width: 100%;
 }
 
-#portfolio_desc.open {
+.open {
 	transform: translate(0,0);
 	-webkit-transform: translate(0,0);
 }
+
+/*#movie.open {
+	transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+}*/
 
 .header {
 	height: 200px;
@@ -48,7 +53,6 @@ nav {
 	list-style-type: none;
     padding-left: 0;
 	width: 300px;
-	height: 100%;
 	position: absolute;
 	transform: translate(-300px,0);
 	transition: transform 0.3s ease;
