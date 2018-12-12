@@ -24,8 +24,6 @@ var movie = document.querySelector('.project2');
 var movie_desc = document.querySelector('#movie');
 
 
-
-
 movie.addEventListener('click', function(e){
 	portfolio_desc.classList.remove('open');
 	weather_desc.classList.remove('open');
