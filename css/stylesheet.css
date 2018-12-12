@@ -1,5 +1,6 @@
 body {
-	font-size: 1em;
+	font-size: 16px;
+	color: #2d3c49;
 }
 
 #container {
@@ -76,6 +77,8 @@ nav.open {
     right: 0;
     padding-right: 1em;
     font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: Copperplate, Helvetical, Arial;
 }
 
 .project {
@@ -93,4 +96,9 @@ img.project {
 .main {
 	border: 1px solid;
 	height: 515px;
+}
+
+h1.header_name {
+    margin-top: 4px;
+    margin-bottom: -30px;
 }
