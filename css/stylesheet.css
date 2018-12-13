@@ -8,15 +8,15 @@ body {
 }
 
 .description {
-	border: 1px solid;
-	height: 515px;
-	position: absolute;
-	transform: translate(-900px,-900px);
-	transition: transform 0.3s ease;
-	z-index: 10;
-	background-color: white;
-	margin-top: -68px;
-    width: 100%;
+    /* border: 1px solid; */
+    height: 515px;
+    position: absolute;
+    transform: translate(-900px,-900px);
+    transition: transform 0.3s ease;
+    z-index: 10;
+    background-color: #f7f6fb;
+    margin-top: -68px;
+    width: 98%;
 }
 
 .open {
@@ -39,6 +39,15 @@ body {
 }
 
 ul {
+    padding-left: 65px;
+    /* height: 100%; */
+    /* vertical-align: middle; */
+    /* bottom: 50%; */
+    height: 100%;
+    /* top: 50%; */
+}
+
+ul.nav {
 	list-style-type: none;
     padding-left: 0px;
     /* height: 100%; */
