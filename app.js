@@ -1,9 +1,14 @@
 var menu = document.querySelector('.header_menu');
 var drawer = document.querySelector('.nav');
+var body = document.querySelector('html');
 
 menu.addEventListener('click', function(e){
 	drawer.classList.toggle('open');
 	e.stopPropagation();
+});
+
+body.addEventListener('click', function(e){
+	drawer.classList.remove('open');
 });
 
 var portfolio = document.querySelector('.project1');
@@ -35,7 +40,6 @@ movie.addEventListener('click', function(e){
 
 var weather = document.querySelector('.project3');
 var weather_desc = document.querySelector('#weather');
-
 
 
 weather.addEventListener('click', function(e){
