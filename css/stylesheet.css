@@ -81,11 +81,19 @@ nav.open {
     font-family: Copperplate, Helvetical, Arial;
 }
 
+
+.projects {
+	color: #7d97ad;
+    font-family: Copperplate, Helvetical, Arial;
+}
+
 .project {
 	border: 1px solid;
 	width: 33%;
 	float: left;
 	text-align: center;
+	color: #2d3c49;
+	margin-right: 20px;
 }
 
 img.project {
@@ -102,3 +110,4 @@ h1.header_name {
     margin-top: 4px;
     margin-bottom: -30px;
 }
+
