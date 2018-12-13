@@ -14,7 +14,6 @@ body {
     transform: translate(-900px,-900px);
     transition: transform 0.3s ease;
     z-index: 10;
-    background-color: #f7f6fb;
     margin-top: -68px;
     width: 98%;
     font-size: 1.3em;
@@ -83,7 +82,7 @@ nav.open {
 
 .header_title {
 	display: inline-block;
-	position: absolute;
+	float: right;
     right: 0;
     padding-right: 1em;
     text-transform: uppercase;
@@ -123,4 +122,17 @@ h2.projects_title {
 	margin-bottom: -5px;
     margin-left: 10px;
     margin-top: 65px;
+}
+
+
+@media screen and (min-width: 1100px){
+	body {
+		width: 1100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.project {
+		width:33%;
+	}
 }
