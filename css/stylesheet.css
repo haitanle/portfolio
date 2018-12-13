@@ -8,7 +8,6 @@ body {
 }
 
 .description {
-    /* border: 1px solid; */
     height: 515px;
     position: absolute;
     transform: translate(-900px,-900px);
@@ -17,6 +16,7 @@ body {
     background-color: #f7f6fb;
     margin-top: -68px;
     width: 98%;
+    font-size: 1.3em;
 }
 
 .open {
@@ -40,21 +40,13 @@ body {
 
 ul {
     padding-left: 65px;
-    /* height: 100%; */
-    /* vertical-align: middle; */
-    /* bottom: 50%; */
     height: 100%;
-    /* top: 50%; */
 }
 
 ul.nav {
 	list-style-type: none;
     padding-left: 0px;
-    /* height: 100%; */
-    /* vertical-align: middle; */
-    /* bottom: 50%; */
     height: 100%;
-    /* top: 50%; */
 }
 
 a:link {
@@ -62,8 +54,6 @@ a:link {
 }
 
 nav {
-    /* list-style-type: none; */
-    /* padding-left: 0; */
     width: 300px;
     position: absolute;
     transform: translate(-999px,0);
@@ -72,7 +62,6 @@ nav {
     height: 550px;
     background-color: #d0d8de;
     font-size: 1.7em;
-    /* text-align: center; */
 }
 
 nav.open {
@@ -81,13 +70,7 @@ nav.open {
 }
 
 .nav__item {
-    /* width: 108%; */
     border-bottom: 2px solid #968d8d;
-    /* padding-bottom: 42px; */
-    /* height: 100%; */
-    /* bottom: 50%; */
-    /* display: table; */
-    /* top: 50%; */
     height: 22%;
     height: 15%;
     margin-top: 53px;
