@@ -110,7 +110,7 @@ img.project {
 }
 
 .main {
-	height: 460px;
+	height: 300px;
 }
 
 h1.header_name {
@@ -118,3 +118,9 @@ h1.header_name {
     margin-bottom: -30px;
 }
 
+
+h2.projects_title {
+	margin-bottom: -5px;
+    margin-left: 10px;
+    margin-top: 65px;
+}
