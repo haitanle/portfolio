@@ -2,6 +2,7 @@ body {
 	font-size: 30px;
 	color: #2d3c49;
 	font-family: Copperplate, Helvetical, Arial;
+	min-width: 705px;
 }
 
 #container {
@@ -9,7 +10,7 @@ body {
 }
 
 .description {
-    height: 400px;
+   /* height: 400px;*/
     position: absolute;
     transform: translate(-900px,-900px);
     transition: transform 0.3s ease;
@@ -110,6 +111,8 @@ img.project {
 
 .main {
 	height: 300px;
+	margin-top: -65px;
+    margin-bottom: 100px;
 }
 
 h1.header_name {
