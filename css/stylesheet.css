@@ -18,7 +18,8 @@ body {
     z-index: 10;
     margin-top: -68px;
     width: 98%;
-    font-size: 1.3em;
+    font-size: 1.2em;
+/*    background: url('../res/background.jpg');*/
 }
 
 .open {
@@ -120,6 +121,8 @@ img.project {
 	height: 300px;
 	margin-top: -65px;
     margin-bottom: 100px;
+    background: url(../res/background.jpg);
+    background-size: cover;
 }
 
 h1.header_name {
