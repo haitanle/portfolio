@@ -2,18 +2,13 @@ body {
 	font-size: 28px;
 	color: #2d3c49;
 	font-family: Copperplate, Helvetical, Arial;
-	min-width: 705px;
+	min-width: 635px;
 	background-color: #ececec;
 }
 
 .description {
-/*    position: absolute;
-    transform: translate(-900px,-900px);
-    transition: transform 0.3s ease;
-    z-index: 10;
-    margin-top: -68px;
-    width: 98%;
-    font-size: 1.2em;*/
+	padding-left: 65px;
+    height: 100%;
     display: none;
 }
 
@@ -22,7 +17,6 @@ body {
 }
 
 .header {
-/*    height: 160px;*/
     margin-bottom: 120px;
     margin-top: -20px;
     border-bottom: 3px solid;
@@ -35,7 +29,6 @@ body {
 
 .header_menu img {
 	width: 12%;
-	/*vertical-align: middle;*/
 	margin-top: 1em;
 }
 
@@ -51,7 +44,6 @@ ul.menu {
 }
 
 img.logo {
-	/*display: inline;*/
 	width: 15%;
 	margin-top: 1em;
 }
@@ -86,13 +78,10 @@ nav.open {
 }
 
 .header_title {
-/*	display: inline-block;*/
 	float: right;
-    /*right: 0;*/
-   /* padding-right: 1em;*/ 
-   margin-right: 20px;
-     text-transform: uppercase;
-     font-size: .8em;
+   	margin-right: 20px;
+    text-transform: uppercase;
+    font-size: .8em;
 }
 
 .projects {
@@ -114,7 +103,7 @@ img.project {
     width: 90%;
     height: 250px;
     padding-left: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .main {
@@ -128,14 +117,12 @@ img.project {
 }
 
 h1.header_name {
-/*    margin-top: 4px;*/
     margin-bottom: -30px;
 }
 
 h3.projects_title {
-	margin-bottom: -5px;
+	margin-bottom: -20px;
     margin-left: 10px;
-/*    margin-top: 65px;*/
     width: 100%;
 }
 

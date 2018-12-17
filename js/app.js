@@ -15,8 +15,6 @@ var portfolio = document.querySelector('.project1');
 var portfolio_desc = document.querySelector('#portfolio');
 var description = document.querySelector('.description');
 
-
-
 portfolio.addEventListener('click', function(e){
 	movie_desc.classList.remove('open');
 	weather_desc.classList.remove('open');
@@ -24,10 +22,8 @@ portfolio.addEventListener('click', function(e){
 	e.stopPropagation();
 });
 
-
 var movie = document.querySelector('.project2');
 var movie_desc = document.querySelector('#movie');
-
 
 movie.addEventListener('click', function(e){
 	portfolio_desc.classList.remove('open');
@@ -36,11 +32,8 @@ movie.addEventListener('click', function(e){
 	e.stopPropagation();
 });
 
-
-
 var weather = document.querySelector('.project3');
 var weather_desc = document.querySelector('#weather');
-
 
 weather.addEventListener('click', function(e){
 	portfolio_desc.classList.remove('open');
