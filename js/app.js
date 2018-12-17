@@ -1,5 +1,5 @@
 var menu = document.querySelector('.header_menu');
-var drawer = document.querySelector('.nav');
+var drawer = document.querySelector('.drawer');
 var body = document.querySelector('html');
 
 menu.addEventListener('click', function(e){

@@ -6,10 +6,6 @@ body {
 	background-color: #ececec;
 }
 
-#container {
-	float: left;
-}
-
 .description {
     position: absolute;
     transform: translate(-900px,-900px);
@@ -45,7 +41,7 @@ ul {
     height: 100%;
 }
 
-ul.nav {
+ul.menu {
 	list-style-type: none;
     padding-left: 0px;
     height: 100%;
