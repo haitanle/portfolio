@@ -1,6 +1,6 @@
-var menu = document.querySelector('.header_menu');
-var drawer = document.querySelector('.nav');
-var body = document.querySelector('html');
+var menu = document.querySelector('.menu_icon');
+var drawer = document.querySelector('.drawer');
+var body = document.querySelector('body');
 
 menu.addEventListener('click', function(e){
 	drawer.classList.toggle('open');
