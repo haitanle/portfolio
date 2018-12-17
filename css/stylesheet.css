@@ -116,9 +116,9 @@ img.project {
 }
 
 .main {
-	height: 300px;
-	margin-top: -65px;
-    margin-bottom: 100px;
+	height: 445px;
+	margin-top: -70px;
+/*    margin-bottom: 100px;*/
     background: url(../img/background.jpg);
     background-size: cover;
 }
