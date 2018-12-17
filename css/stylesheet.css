@@ -1,5 +1,5 @@
 body {
-	font-size: 30px;
+	font-size: 28px;
 	color: #2d3c49;
 	font-family: Copperplate, Helvetical, Arial;
 	min-width: 705px;
@@ -7,23 +7,24 @@ body {
 }
 
 .description {
-    position: absolute;
+/*    position: absolute;
     transform: translate(-900px,-900px);
     transition: transform 0.3s ease;
     z-index: 10;
     margin-top: -68px;
     width: 98%;
-    font-size: 1.2em;
+    font-size: 1.2em;*/
+    display: none;
 }
 
 .open {
-	transform: translate(0,0);
-	-webkit-transform: translate(0,0);
+	display: block;
 }
 
 .header {
 /*    height: 160px;*/
     margin-bottom: 120px;
+    margin-top: -20px;
     border-bottom: 3px solid;
 }
 
@@ -99,6 +100,7 @@ nav.open {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: -40px;
 }
 
 .project {
@@ -116,11 +118,13 @@ img.project {
 }
 
 .main {
-	height: 445px;
-	margin-top: -70px;
-/*    margin-bottom: 100px;*/
+	padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: -100px;
+    margin-bottom: 29px;
     background: url(../img/background.jpg);
     background-size: cover;
+    width: 100%;
 }
 
 h1.header_name {
@@ -128,10 +132,10 @@ h1.header_name {
     margin-bottom: -30px;
 }
 
-h2.projects_title {
+h3.projects_title {
 	margin-bottom: -5px;
     margin-left: 10px;
-    margin-top: 65px;
+/*    margin-top: 65px;*/
     width: 100%;
 }
 
