@@ -17,19 +17,24 @@ body {
 }
 
 .header {
+	display: flex;
     margin-bottom: 120px;
     margin-top: -20px;
     border-bottom: 3px solid;
 }
 
 .header_menu {
-	display: inline-block;
-	width: 100%;
+	width: 15%;
 }
 
 .header_menu img {
-	width: 12%;
-	margin-top: 1em;
+	width: 80px;
+	height: 80px;
+	margin-top: 35px;
+}
+
+.header_logo {
+	width: 20%;
 }
 
 ul {
@@ -44,8 +49,9 @@ ul.menu {
 }
 
 img.logo {
-	width: 15%;
-	margin-top: 1em;
+	width: 150px;
+	height: 110px;
+	margin-top: 20px;
 }
 
 a:link {
@@ -78,10 +84,12 @@ nav.open {
 }
 
 .header_title {
-	float: right;
-   	margin-right: 20px;
+   	margin-right: 10px;
     text-transform: uppercase;
-    font-size: .8em;
+    font-size: .7em;
+    text-align: right;
+    width: 65%;
+    padding-right: 30px;
 }
 
 .projects {
@@ -118,6 +126,7 @@ img.project {
 
 h1.header_name {
     margin-bottom: -30px;
+    padding-right: 225px;
 }
 
 h3.projects_title {
