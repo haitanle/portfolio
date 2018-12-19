@@ -102,7 +102,7 @@ nav.open {
 
 .project {
 	width: 50%;
-	float: left;
+/*	float: left;*/
 	text-align: center;
 	color: #2d3c49;
 }
@@ -110,7 +110,7 @@ nav.open {
 img.project {
     width: 90%;
     height: 250px;
-    padding-left: 25px;
+/*    padding-left: 25px;*/
     padding-bottom: 15px;
 }
 
