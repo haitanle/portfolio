@@ -140,8 +140,8 @@ h3.projects_title {
 */
 
 body {
-	font-size: 28px;
-	color: #2d3c49;
+	font-size: 16px;
+	/*color: #2d3c49;*/
 	font-family: Copperplate, Helvetical, Arial;
 	background-color: #ececec;
 	display: flex; 
@@ -150,6 +150,8 @@ body {
 html, body {
 	width: 100%;
 	height: 100%;
+	margin: 0;
+    padding: 0;
 }
 
 .menu {
@@ -176,7 +178,7 @@ html, body {
 
 .display {
 	background-color: yellow;
-	width: 100%%;
+	width: 100%;
 	height: 50%;
 }
 
@@ -216,6 +218,17 @@ img {
 
 .title_container {
 	width: 60%;
+	height: 100%;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
+	font-size: 3vw;
+}
+
+.title_text h1{
+	margin: 0;
+}
+
+.title_text h4{
+	margin: 0;
 }
