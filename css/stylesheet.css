@@ -232,3 +232,12 @@ img {
 .title_text h4{
 	margin: 0;
 }
+
+.description h3 {
+	margin: 0;
+}
+
+
+.portfolio_toggle {
+	display: none;
+}

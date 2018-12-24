@@ -51,3 +51,10 @@ click_icon.addEventListener('click', function(e){
 	//document.querySelector('.menu').style.width = '0%';
 	document.querySelector('.menu').classList.toggle('menu_toggle');
 });
+
+
+var project = document.querySelector('.project');
+
+project.addEventListener('click', function(e){
+	document.querySelector('#portfolio').classList.toggle('portfolio_toggle');
+})
