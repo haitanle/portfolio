@@ -103,12 +103,12 @@ nav.open {
 	color: #7d97ad;
 	width: 100%;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	margin-top: -40px;
 }
 
 .project {
-	width: 50%;
+	width: 100%;
 /*	float: left;*/
 	text-align: center;
 	color: #2d3c49;
@@ -145,7 +145,7 @@ h3.projects_title {
     width: 100%;
 }
 
-@media screen and (min-width: 1100px){
+/*@media screen and (min-width: 1100px){
 	body {
 		width: 1100px;
 		margin-left: auto;
@@ -155,4 +155,10 @@ h3.projects_title {
 	.project {
 		width:33%;
 	}
+}*/
+
+
+.projects_container {
+	display: flex;
+	flex-wrap: wrap;
 }
