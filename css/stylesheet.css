@@ -14,9 +14,7 @@ body {
 }
 
 .description {
-	padding-left: 65px;
     height: 100%;
-    display: none;
 }
 
 .open {
@@ -93,16 +91,13 @@ nav {
 }
 
 .header_title {
-   /*	margin-right: 10px;*/
     text-transform: uppercase;
     font-size: .7em;
     text-align: right;
     width: 65%;
-    /*padding-right: 30px;*/
 }
 
 .content {
-	width: 80%;
 	display: flex;
 	flex-direction: column;
 }
@@ -138,11 +133,6 @@ img.project {
     /* margin-bottom: 29px; */
     background: url(../img/background.jpg);
     background-size: cover;
-}
-
-h1.header_name {
-    margin-bottom: -30px;
-    padding-right: 225px;
 }
 
 h3.projects_title {
@@ -222,8 +212,18 @@ img {
 	font-size: 50%;
 }
 
+.menu_toggle {
+	display: none;
+}
 
-@media screen and (max-width: 370px){
+
+.project_hide {
+	display: none;
+}
+
+
+
+@media screen and (max-width: 319px){
 	body {
 		font-size: 12px;
 	}
@@ -234,5 +234,85 @@ img {
 
 	.project a {
 		font-size: 50%;
+	}
+}
+
+
+
+@media screen and (min-width: 320px){
+	body {
+		font-size: 16px;
+	}
+
+	nav {
+    	width: 170%;
+	}
+
+	.menu li {
+	font-size: 60%;
+	}
+
+	.project a {
+		font-size: 50%;
+	}
+
+	.project_container {
+		width: 50%;
+	}
+
+	.project_container h3 {
+		font-size: 1em;
+	}
+
+	.project_container a {
+		font-size: 45%;
+	}
+}
+
+
+@media screen and (min-width: 475px){
+
+	.menu ul {
+		font-size: 3em;
+	}
+
+
+	nav {
+    	width: 100%;
+	}
+}
+
+
+@media screen and (min-width: 750px){
+
+	.project_container {
+		width: 33%;
+	}
+
+	body {
+		font-size: 20px;
+	}
+
+	nav {
+		width: 50%;
+	}
+}
+
+
+@media screen and (min-width: 1000px){
+
+	.project_container {
+		width: 25%;
+	}
+
+	body {
+		font-size: 26px;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	nav {
+		width: 60%;
 	}
 }
