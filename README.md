@@ -1,6 +1,6 @@
 # Udacity Project 1 - Portfolio
 
-Source code for Udacity's Project 1 - Portfolio
+Portfolio of all my work from Udacity's front-end nanodegree
 
 HTML, CSS, JavaScript
 
